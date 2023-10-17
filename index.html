@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>???</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/dark-base.css">
+    <link href="SLTimer.styles.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Noto Color Emoji' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="/images/regios/REGIOS-eagle.svg" alt="REGIOS" class="logoCenter" />
+            <img src="/images/regios/REGIOS-frame.svg" alt="REGIOS" class="logoFrame" />
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="_framework/aspnetcore-browser-refresh.js"></script>
+
+    <script>
+        window.appCulture = {
+            get: () => window.localStorage['AppLanguage'],
+            set: (value) => window.localStorage['AppLanguage'] = value
+        };
+    </script>
+
+    <style>
+        .logoCenter {
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 275px;
+        }
+
+        .logoFrame {
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            animation: rotation 2s infinite linear;
+        }
+    </style>
+</body>
+
+</html>
