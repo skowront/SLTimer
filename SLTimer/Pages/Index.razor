@@ -1,0 +1,33 @@
+﻿@page "/"
+
+@if (this.timeLeft.TotalMilliseconds > 0)
+{
+    <div style="vertical-align:middle">
+        <div class="text-center" style="margin-top:5%">
+            <RadzenText TextStyle="TextStyle.H1" Style="margin-top:5%;">@WebsiteLoc.WebsiteTitle</RadzenText>
+            <RadzenText TextStyle="TextStyle.H2" Style="margin-top:5%;">@($"{WebsiteLoc.TimeLeft}:")</RadzenText>
+            <RadzenText TextStyle="TextStyle.H2" Style="display:inline">@($"{this.timeLeft.Days} {WebsiteLoc.Days} {this.timeLeft.Hours} {WebsiteLoc.Hours} {this.timeLeft.Minutes} {WebsiteLoc.Minutes} {this.timeLeft.Seconds} {WebsiteLoc.Seconds}")</RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:5%;">@WebsiteLoc.Description</RadzenText>
+        </div>
+    </div>
+}
+else
+{
+
+}
+
+
+@code {
+    private TimeSpan timeLeft = TimeSpan.FromSeconds(1000);
+    private System.Threading.Timer? timer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // NOTE: THE FOLLOWING CODE ADDED
+        timer = new System.Threading.Timer(async (object? stateInfo) =>
+        {
+            timeLeft = timeLeft.Subtract(TimeSpan.FromSeconds(1));
+            StateHasChanged();
+        }, new System.Threading.AutoResetEvent(false), 0, 1000);
+    }
+}

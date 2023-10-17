@@ -1,0 +1,60 @@
+﻿@using System.Globalization
+@using System.ComponentModel;
+@using System.Reflection;
+@using SLTimer.Shared.LanguageResources;
+@using SLTimer.Shared.WebsiteLocResources;
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Nav
+
+<RadzenMenu Style="@("direction:rtl;"+Style)" class="d-none d-md-block d-lg-block">
+    <RadzenMenuItem Text="@(WebsiteLoc.Language)" Icon="language" Style="direction:ltr;">
+        <div class="row" style="width:200px">
+            <RadzenButton Image="images/pl-SL.svg" Text="@LangLoc.SI" Click="@((a)=>{this.SetSilesian();})" ButtonStyle="ButtonStyle.Light" Style="display:flex"></RadzenButton>
+        </div>
+@*        <div class="row">
+            <RadzenButton Image="images/pl-CSB.svg" Text="@LangLoc.CSB" Click="@((a)=>{this.SetKashubian();})" ButtonStyle="ButtonStyle.Light" Style="display:flex;"></RadzenButton>
+        </div>*@
+        <div class="row">
+            <RadzenButton Image="images/pl-PL.svg" Text="@LangLoc.PL" Click="@((a)=>{this.SetPolish();})" ButtonStyle="ButtonStyle.Light" Style="display:flex;"></RadzenButton>
+        </div>
+        <div class="row">
+            <RadzenButton Image="images/en-EN.svg" Text="@LangLoc.EN" Click="@((a)=>{this.SetEnglish();})" ButtonStyle="ButtonStyle.Light" Style="display:flex;"></RadzenButton>
+        </div>
+        <div class="row">
+            <RadzenButton Image="images/de-DE.svg" Text="@LangLoc.DE" Click="@((a)=>{this.SetDeutsch();})" ButtonStyle="ButtonStyle.Light" Style="display:flex;"></RadzenButton>
+        </div>
+    </RadzenMenuItem>
+</RadzenMenu>
+<div class="row">
+   
+</div>
+
+@code {
+    [Parameter]
+    public string Style { get; set; } = string.Empty;
+
+    CultureInfo Culture
+    {
+        get
+        {
+            var culture = CultureInfo.CurrentCulture;
+            return culture;
+        }
+        set
+        {
+            if (CultureInfo.CurrentCulture != value)
+            {
+                var js = (IJSInProcessRuntime)JSRuntime;
+                CultureInfo.CurrentCulture = value;
+                js.InvokeVoid("appCulture.set", value.Name);
+                Nav.NavigateTo(Nav.Uri, forceLoad: true);
+            }
+        }
+    }
+
+    private void SetEnglish() => this.Culture = System.Globalization.CultureInfo.CreateSpecificCulture("en-EN");
+    private void SetSilesian() => this.Culture = System.Globalization.CultureInfo.CreateSpecificCulture("en-SI");
+    private void SetKashubian() => this.Culture = System.Globalization.CultureInfo.CreateSpecificCulture("en-CA");
+    private void SetPolish() => this.Culture = System.Globalization.CultureInfo.CreateSpecificCulture("pl-PL");
+    private void SetDeutsch() => this.Culture = System.Globalization.CultureInfo.CreateSpecificCulture("de-DE");
+}
