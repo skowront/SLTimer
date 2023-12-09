@@ -120,6 +120,9 @@
   <data name="Days" xml:space="preserve">
     <value>days</value>
   </data>
+  <data name="DeadlineBrokenBy" xml:space="preserve">
+    <value>Deadline broken by</value>
+  </data>
   <data name="Description" xml:space="preserve">
     <value>Sitrep</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Minutes" xml:space="preserve">
     <value>minutes</value>
+  </data>
+  <data name="Promises" xml:space="preserve">
+    <value>Promises</value>
   </data>
   <data name="Seconds" xml:space="preserve">
     <value>seconds</value>

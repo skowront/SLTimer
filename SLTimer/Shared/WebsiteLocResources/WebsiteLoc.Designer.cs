@@ -70,6 +70,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Deadline broken by.
+        /// </summary>
+        public static string DeadlineBrokenBy {
+            get {
+                return ResourceManager.GetString("DeadlineBrokenBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sitrep.
         /// </summary>
         public static string Description {
@@ -102,6 +111,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         public static string Minutes {
             get {
                 return ResourceManager.GetString("Minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Promises.
+        /// </summary>
+        public static string Promises {
+            get {
+                return ResourceManager.GetString("Promises", resourceCulture);
             }
         }
         

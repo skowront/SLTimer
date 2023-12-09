@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DE" xml:space="preserve">
+    <value>deutsch</value>
+  </data>
+  <data name="SI" xml:space="preserve">
+    <value>ślōnskŏ gŏdka</value>
+  </data>
+  <data name="PL" xml:space="preserve">
+    <value>polski</value>
+  </data>
+  <data name="EN" xml:space="preserve">
+    <value>english</value>
+  </data>
+  <data name="CSB" xml:space="preserve">
+    <value>kaszëbsczi jãzëk</value>
+  </data>
 </root>
