@@ -17,7 +17,7 @@ jobs:
     # Here for skowront.github.io/<repository>
     # run: dotnet publish SymulatorNSP/SymulatorNSP.csproj -p:GHPages=true -c Release -o release --nologo 
     # Below for custom domain name
-      run: dotnet publish SymulatorNSP/SymulatorNSP.csproj -c Release -o release --nologo 
+      run: dotnet publish SLTimer/SLTimer.csproj -c Release -o release --nologo 
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
     # This is not needed if we use custom domain
