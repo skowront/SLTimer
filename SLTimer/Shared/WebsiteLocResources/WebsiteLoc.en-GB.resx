@@ -120,4 +120,31 @@
   <data name="WebsiteTitle" xml:space="preserve">
     <value>SilesianMinorityTimer</value>
   </data>
+  <data name="Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="DeadlineBrokenBy" xml:space="preserve">
+    <value>Deadline broken by</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Promises" xml:space="preserve">
+    <value>Promises</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Time left</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>During the election campaign, many politicians, especially those running from Silesia, addressed demands related to the unrecognized Silesian minority and its language. Below are collected political declarations of the leaders of the so-called "democratic opposition" who signed a coalition agreement and declare the ability to form a majority government. One of these demands, the "Radzionków Declaration," entails the recognition of the Silesian language as a regional language within the first 100 days of the government of the Civic Coalition. Therefore, on this page, we have placed a clock to remind Silesians, Silesian politicians, and the new government to fulfill the promises made.</value>
+  </data>
 </root>

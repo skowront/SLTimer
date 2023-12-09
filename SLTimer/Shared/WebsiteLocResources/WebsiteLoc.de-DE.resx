@@ -118,6 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WebsiteTitle" xml:space="preserve">
-    <value>SilesianMinorityTimer</value>
+    <value>Schlesischer Schalter</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Während des Wahlkampfs haben viele Politiker, besonders diejenigen, die aus Schlesien antreten, Forderungen im Zusammenhang mit der nicht anerkannten schlesischen Minderheit und ihrer Sprache angesprochen. Im Folgenden sind politische Erklärungen der Führer der sogenannten "demokratischen Opposition" gesammelt, die eine Koalitionsvereinbarung unterzeichnet haben und die Fähigkeit zur Bildung einer Mehrheitsregierung erklären. Eine dieser Forderungen, die "Radzionków-Erklärung", sieht die Anerkennung der schlesischen Sprache als regionale Sprache innerhalb der ersten 100 Tage der Regierung der Bürgerkoalition vor. Deshalb haben wir auf dieser Seite eine Uhr platziert, um die Schlesier, schlesischen Politiker und die neue Regierung daran zu erinnern, die gemachten Versprechen zu halten.</value>
+  </data>
+  <data name="DeadlineBrokenBy" xml:space="preserve">
+    <value>Fristüberschreitung um</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Uhr</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="Promises" xml:space="preserve">
+    <value>Versprechen</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Noch</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Tage</value>
   </data>
 </root>
