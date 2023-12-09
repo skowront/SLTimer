@@ -70,7 +70,16 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sitrep.
+        ///   Looks up a localized string similar to Deadline broken by.
+        /// </summary>
+        public static string DeadlineBrokenBy {
+            get {
+                return ResourceManager.GetString("DeadlineBrokenBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to During the election campaign, many politicians, especially those running from Silesia, addressed demands related to the unrecognized Silesian minority and its language. Below are collected political declarations of the leaders of the so-called &quot;democratic opposition&quot; who signed a coalition agreement and declare the ability to form a majority government. One of these demands, the &quot;Radzionków Declaration,&quot; entails the recognition of the Silesian language as a regional language within the first 100 days of the [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Description {
             get {
@@ -102,6 +111,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         public static string Minutes {
             get {
                 return ResourceManager.GetString("Minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Promises.
+        /// </summary>
+        public static string Promises {
+            get {
+                return ResourceManager.GetString("Promises", resourceCulture);
             }
         }
         

@@ -118,6 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WebsiteTitle" xml:space="preserve">
-    <value>SilesianMinorityTimer</value>
+    <value>Czas Na Ślązaków</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>W trakcie kampanii wyborczej wielu polityków, szczególnie tych startujących ze Śląska odnosiło się do postulatów związanych z nieuznawaną mniejszością Śląską oraz jej językiem. Poniżej zostały zebrane polityczne deklaracje liderów tzw. “demokratycznej opozycji” które podpisały umowę koalicyjną i deklarują zdolność do stworzenia większościowego rządu. Jeden z tych postulatów “Deklaracja Radzionkowska” zakłada uznanie języka śląskiego za język regionalny w czasie pierwszych 100 dni rządów Koalicji Obywatelskiej, dlatego też na tej stronie zamieściliśmy zegar, który ma przypominać Ślązakom, śląskim politykom i nowemu rządowi o dotrzymaniu złożonych obietnic.</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Pozostały czas</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>sekund</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Godziny</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Dni</value>
+  </data>
+  <data name="DeadlineBrokenBy" xml:space="preserve">
+    <value>Termin przekroczony o</value>
+  </data>
+  <data name="Promises" xml:space="preserve">
+    <value>Obietnice</value>
   </data>
 </root>

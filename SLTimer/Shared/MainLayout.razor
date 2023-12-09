@@ -20,8 +20,10 @@
 @*            <RadzenBody Style="background-color:var(--rz-base-900) ">
                 @Body
             </RadzenBody>*@
-            <RadzenBody style="background-image: url(/images/regios/background.jpg);">
-                @Body
+            <RadzenBody style="background: rgba(0, 0, 0, .50) url(/images/regios/background.jpg);background-blend-mode: darken;">
+                <div>
+                    @Body
+                </div>
             </RadzenBody>
             
         </RadzenLayout>
@@ -33,9 +35,9 @@
                         © 2022 Copyright:
                     </RadzenText>
                     <div>
-                        <RadzenLink Style="color:var(--rz-primary)">regios.org.pl</RadzenLink>
+                        <RadzenLink Style="color:var(--rz-primary)" Path="https://regios.org.pl" >regios.org.pl</RadzenLink>
                         <RadzenText class="d-inline">/</RadzenText>
-                        <RadzenLink Style="color:var(--rz-primary)">Tomasz Skowron</RadzenLink>
+                        <RadzenLink Style="color:var(--rz-primary)" Path="https://github.com/skowront">Tomasz Skowron</RadzenLink>
                     </div>
                 </div>
             </div>
