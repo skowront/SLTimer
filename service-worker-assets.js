@@ -161,7 +161,7 @@
       "url": "images\/regios\/tusk.jpg"
     },
     {
-      "hash": "sha256-ve\/RSOcRWLIPAcihqB6Lav7HPokv390THKDrfpe+HSM=",
+      "hash": "sha256-ZesaS20pLPNymVpNVh+yUnROHTBsl5HVLCWj+waZw30=",
       "url": "index.html"
     },
     {
@@ -193,7 +193,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-rZr0J0WYXPDhCA3ahxVXnkpV+LOyTFTcLG7RjlM64bw=",
+      "hash": "sha256-E7NQqEmZliDzplKT0c449qREquJg6RKnH0brQdhnR1M=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -273,7 +273,7 @@
       "url": "_framework\/Radzen.Blazor.dll"
     },
     {
-      "hash": "sha256-mhUIgZChWBWFIFe0t0Zg79pGTTkLwi4ufSIRhRv3GRc=",
+      "hash": "sha256-fyocXXye7ScHEX\/G2BK+aUZDin9BgumOFKysDHeEkZ0=",
       "url": "_framework\/SLTimer.dll"
     },
     {
@@ -433,23 +433,23 @@
       "url": "_framework\/System.Xml.XDocument.dll"
     },
     {
-      "hash": "sha256-4FQWaPi\/X9d1XWMDWXf9NdDxvLyd1YSlR+hgZAS80rc=",
+      "hash": "sha256-cYgEivuXAMiUxmSx8YAknk79bwHGi0o9bPvKuQDi\/YY=",
       "url": "_framework\/de-DE\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-NE4WVNLxt8LGpoBPCgzcrpt8QZgfrMjbPhNrDc66qYg=",
+      "hash": "sha256-djRAB4HnQUo4+7gmnVDKiBj+1W86cqMUtgChPcjFZJo=",
       "url": "_framework\/en-CA\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-27XzdiYIwUaFEf9DhGoISCIWYcP\/8raG\/y3P+mQq\/+o=",
+      "hash": "sha256-EnGAIg0\/HJ2y\/0OC6A8xEZcGjkZLgusL2LCx\/6tL0b4=",
       "url": "_framework\/en-GB\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-oeagXlJFhcSXyqcluKKuYHropbAQ2sqXAyFMdvP2e1I=",
+      "hash": "sha256-uQfxZrHGtJqkRHtRZh36bu8vegss\/3c\/likQdF28+74=",
       "url": "_framework\/en-SI\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-MOLIbKePJSxENIf9vFH+\/Vgo9xyWcX1NJwgx8C0xWaY=",
+      "hash": "sha256-cQSXemiU5Y261cdpmH7S91zpEWAVaxPBc08ytuboP8g=",
       "url": "_framework\/pl-PL\/SLTimer.resources.dll"
     },
     {
@@ -589,5 +589,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "ViIWelxs"
+  "version": "AaunMIEF"
 };
