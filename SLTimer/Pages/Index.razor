@@ -1,15 +1,20 @@
 ﻿@page "/"
 
+<div style="vertical-align:middle">
+    <div class="text-center" style="margin-top:2%">
+        <RadzenText TextStyle="TextStyle.H1" Style="margin-top:0%;">@(WebsiteLoc.WebsiteTitle)</RadzenText>
+        <RadzenCard>
+            <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:0%;">@(WebsiteLoc.Description)</RadzenText>
+        </RadzenCard>
+    </div>
+</div>
+
 @if (this.timeLeft.TotalMilliseconds > 0)
 {
     <div style="vertical-align:middle">
         <div class="text-center" style="margin-top:2%">
-            <RadzenText TextStyle="TextStyle.H1" Style="margin-top:0%;">@(WebsiteLoc.WebsiteTitle)</RadzenText>
-            <RadzenCard>
-                <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:0%;">@(WebsiteLoc.Description)</RadzenText>
-            </RadzenCard>
-            <RadzenText TextStyle="TextStyle.H2" Style="margin-top:5%;">@($"{WebsiteLoc.TimeLeft}:")</RadzenText>
-            <RadzenText TextStyle="TextStyle.H2" Style="display:inline">@($"{this.timeLeft.Days} {WebsiteLoc.Days} {this.timeLeft.Hours} {WebsiteLoc.Hours} {this.timeLeft.Minutes} {WebsiteLoc.Minutes} {this.timeLeft.Seconds} {WebsiteLoc.Seconds}")</RadzenText>
+            <RadzenText TextStyle="TextStyle.H4" Style="margin-top:5%;">@($"{WebsiteLoc.TimeLeft}:")</RadzenText>
+            <RadzenText TextStyle="TextStyle.H1" Style="display:inline">@($"{this.timeLeft.Days} {WebsiteLoc.Days} {this.timeLeft.Hours} {WebsiteLoc.Hours} {this.timeLeft.Minutes} {WebsiteLoc.Minutes} {this.timeLeft.Seconds} {WebsiteLoc.Seconds}")</RadzenText>
         </div>
     </div>
 }
@@ -17,12 +22,8 @@ else
 {
     <div style="vertical-align:middle">
         <div class="text-center" style="margin-top:5%">
-            <RadzenText TextStyle="TextStyle.H1" Style="margin-top:5%;">@(WebsiteLoc.WebsiteTitle)</RadzenText>
-            <RadzenCard>
-                <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:0%;">@(WebsiteLoc.Description)</RadzenText>
-            </RadzenCard>
-            <RadzenText TextStyle="TextStyle.H2" Style="margin-top:5%;color:red">@($"{WebsiteLoc.DeadlineBrokenBy}:")</RadzenText>
-            <RadzenText TextStyle="TextStyle.H2" Style="display:inline;color:red">@($"{Math.Abs(this.timeLeft.Days)} {WebsiteLoc.Days} {Math.Abs(this.timeLeft.Hours)} {WebsiteLoc.Hours} {Math.Abs(this.timeLeft.Minutes)} {WebsiteLoc.Minutes} {Math.Abs(this.timeLeft.Seconds)} {WebsiteLoc.Seconds}")</RadzenText>
+            <RadzenText TextStyle="TextStyle.H4" Style="margin-top:5%;color:red">@($"{WebsiteLoc.DeadlineBrokenBy}:")</RadzenText>
+            <RadzenText TextStyle="TextStyle.H1" Style="display:inline;color:red">@($"{Math.Abs(this.timeLeft.Days)} {WebsiteLoc.Days} {Math.Abs(this.timeLeft.Hours)} {WebsiteLoc.Hours} {Math.Abs(this.timeLeft.Minutes)} {WebsiteLoc.Minutes} {Math.Abs(this.timeLeft.Seconds)} {WebsiteLoc.Seconds}")</RadzenText>
         </div>
     </div>
 }
@@ -30,125 +31,23 @@ else
 
 <div style="vertical-align:middle">
     <div class="text-center" style="margin-top:5%">
-        <RadzenCard Style="display:block; padding:10px; margin-bottom:0px" Class="rz-border-radius-3">
-            <RadzenText TextStyle="TextStyle.H2" Style="margin:0%;">@(WebsiteLoc.Promises)</RadzenText>
-        </RadzenCard>
-        <RadzenRow Gap="1rem" Style="margin-top:10px">
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Koalicja Obywatelska") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/tusk.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Donald Tusk</RadzenText>
-                        </RadzenColumn>
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/budka.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Borys Budka</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenLink Path="https://www.slazag.pl/donald-tusk-jest-jednoznacznie-za-uznaniem-slaskiej-mniejszosci-etnicznej-borys-budka-to-jasna-deklaracja">Donald Tusk jest „jednoznacznie” za uznaniem śląskiej mniejszości etnicznej? Borys Budka: „To jasna deklaracja”</RadzenLink>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Polskie Stronnictwo Ludowe") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/kosiniak.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Władysław Kosiniak-Kamysz</RadzenText>
-                        </RadzenColumn>
-                        <RadzenLink Path="https://silesia24.pl/kosiniak-kamysz-obiecuje-lekcje-jezyka-slaskiego-sfinansowane-z-budzetu-panstwa">Nauka języka, godki śląskiej. Tak żeby było to dostępne dla wszystkich i finansowane z budżetu państwa</RadzenLink>
-                    </RadzenRow>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Polska 2050") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/holownia.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Szymon Hołownia</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenRow Gap="1rem">
-                        <RadzenLink Path="https://twitter.com/szymon_holownia/status/1698317436137738504">Trzeciŏ Drōga uznŏ Ślōnzŏkōw za myńszość etnicznōm - ślōnskij gŏdki bydymy uczyć we szkołach. Mōmy do Wŏs zŏca!</RadzenLink>
-                    </RadzenRow>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Koalicja Obywatelska") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/tusk.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Donald Tusk</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenText TextStyle="TextStyle.Overline">Deklaracja Radzionkowska</RadzenText>
-                    <iframe width="200" height="150" src="https://www.youtube.com/embed/k0GxoeRmkgI?si=1SZ4a8tYgUEQqGtj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Lewica") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/kopiec.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Maciej Kopiec</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenRow Gap="1rem">
-                        <RadzenLink Path="https://www.slazag.pl/czy-jestesmy-gotowi-na-slaski-jezyk-regionalny-posel-maciej-kopiec-bedziemy-przygotowani">Czy jesteśmy gotowi na śląski język regionalny? Poseł Maciej Kopiec: Będziemy przygotowani</RadzenLink>
-                    </RadzenRow>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Koalicja Obywatelska") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/tusk.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Donald Tusk</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenText TextStyle="TextStyle.Overline">Campus Polska Przyszłości</RadzenText>
-                    <iframe width="200" height="150" src="https://www.youtube.com/embed/xZWbk_aQ4NE?si=bGUHCWmarG_DVrEB&amp;start=4792" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Trzecia Droga") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem" Style="margin-top:3px">
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/kosiniak.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Władysław Kosiniak-Kamysz</RadzenText>
-                        </RadzenColumn>
-                        <RadzenColumn>
-                            <RadzenImage Path="/images/regios/holownia.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
-                            <RadzenText>Szymon Hołownia</RadzenText>
-                        </RadzenColumn>
-                    </RadzenRow>
-                    <RadzenLink Path="https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/holownia-i-kosiniak-kamysz-sa-za-uznaniem-slaskiego-za-jezyk-regionalny,472835.html">Szef Polski 2050 Szymon Hołownia i lider PSL Władysław Kosiniak-Kamysz zapowiedzieli w sobotę w Rybniku, że będą wspierali dążenia Ślązaków do uznania śląskiego za język regionalny.</RadzenLink>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Koalicja Obywatelska") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem">
-                        <RadzenLink Path="https://100konkretow.pl/kultura/">„Język śląski zostanie uznany za język regionalny. Ponownie złożymy ustawę, która nada językowi śląskiemu status języka regionalnego, a tym samym odpowie na oczekiwania Ślązaków.”</RadzenLink>
-                    </RadzenRow>
-                </RadzenCard>
-            </RadzenColumn>
-            <RadzenColumn>
-                <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
-                    <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Lewica") Class="rz-mr-1" IsPill="true" />
-                    <RadzenRow Gap="1rem">
-                        <RadzenLink Path="https://lewica.org.pl/program/program-wyborczy-kw-nowa-lewica/"> Polska silna różnorodnością. Nadamy Ślązakom i Kaszubom status mniejszości etnicznych, a tym samym ślůnsko godka zostanie objęta ochroną na równi z kaszëbsczim jãzëkã. Język wilamowski otrzyma status języka regionalnego.</RadzenLink>
-                    </RadzenRow>
-                </RadzenCard>
-            </RadzenColumn>   
+        <RadzenRow Style="margin-bottom:10px; align-content:center; display:block !important;">
+            <RadzenButton Click="() => SetTab(0)">@(WebsiteLoc.Promises)</RadzenButton>
+            <RadzenButton Click="() => SetTab(1)">@(WebsiteLoc.Compass)</RadzenButton>
+            <RadzenButton Click="() => SetTab(2)">@(WebsiteLoc.BillProject)</RadzenButton>
         </RadzenRow>
+        @if(tab==0)
+        {
+            <Promises></Promises>
+        }
+        else if(tab==1)
+        {
+            <Compass></Compass>
+        }
+        else if(tab==2)
+        {
+            <Bill></Bill>
+        }
     </div>
 </div>
 
@@ -158,6 +57,8 @@ else
     private TimeSpan timeLeft;
     private System.Threading.Timer? timer;
     TabPosition tabPosition = TabPosition.Top;
+
+    private int tab = 0;
 
     protected override async Task OnInitializedAsync()
     {
@@ -177,4 +78,9 @@ else
 
     }
 
+    private void SetTab(int x)
+    {
+        this.tab = x;
+        StateHasChanged();
+    }
 }

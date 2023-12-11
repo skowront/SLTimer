@@ -147,4 +147,16 @@
   <data name="Promises" xml:space="preserve">
     <value>Obietnice</value>
   </data>
+  <data name="BillProject" xml:space="preserve">
+    <value>Projekt ustawy</value>
+  </data>
+  <data name="Compass" xml:space="preserve">
+    <value>Kompas wyborczy</value>
+  </data>
+  <data name="CompassDescription" xml:space="preserve">
+    <value>Stowarzyszenie REGIOS przygotowało Kompas Wyborczy, w którym zebraliśmy informacje o podejściu różnych komitetów wyborczych startujących w wyborach parlamentarnych 2023 wobec postulatu języka śląskiego oraz uznania Ślązaków za mniejszość etniczną. Zachęcamy do zapoznania się z jego treścią.</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Czytaj dalej</value>
+  </data>
 </root>
