@@ -61,6 +61,33 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bill project.
+        /// </summary>
+        public static string BillProject {
+            get {
+                return ResourceManager.GetString("BillProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Election compass.
+        /// </summary>
+        public static string Compass {
+            get {
+                return ResourceManager.GetString("Compass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The REGIOS Association has prepared an Electoral Compass in which we have gathered information about the approaches of various electoral committees participating in the parliamentary elections of 2023 regarding the demand for the Silesian language and the recognition of Silesians as an ethnic minority. We encourage you to familiarize yourself with its content..
+        /// </summary>
+        public static string CompassDescription {
+            get {
+                return ResourceManager.GetString("CompassDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to days.
         /// </summary>
         public static string Days {
@@ -124,6 +151,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Read more.
+        /// </summary>
+        public static string ReadMore {
+            get {
+                return ResourceManager.GetString("ReadMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to seconds.
         /// </summary>
         public static string Seconds {
@@ -142,7 +178,7 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SilesianMinorityTimer.
+        ///   Looks up a localized string similar to Time for Silesians.
         /// </summary>
         public static string WebsiteTitle {
             get {

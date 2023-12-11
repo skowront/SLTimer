@@ -147,4 +147,7 @@
   <data name="Days" xml:space="preserve">
     <value>Tage</value>
   </data>
+  <data name="CompassDescription" xml:space="preserve">
+    <value>Der Verein REGIOS hat einen Wahlkompass vorbereitet, in dem wir Informationen über die Ansätze verschiedener Wahlkomitees gesammelt haben, die an den Parlamentswahlen 2023 teilnehmen, hinsichtlich der Forderung nach der Schlesischen Sprache und der Anerkennung der Schlesier als ethnische Minderheit. Wir ermutigen Sie, sich mit seinem Inhalt vertraut zu machen.</value>
+  </data>
 </root>
