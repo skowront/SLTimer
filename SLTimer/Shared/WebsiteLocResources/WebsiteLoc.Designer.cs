@@ -61,11 +61,11 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bill project.
+        ///   Looks up a localized string similar to Bill projects.
         /// </summary>
-        public static string BillProject {
+        public static string BillProjects {
             get {
-                return ResourceManager.GetString("BillProject", resourceCulture);
+                return ResourceManager.GetString("BillProjects", resourceCulture);
             }
         }
         

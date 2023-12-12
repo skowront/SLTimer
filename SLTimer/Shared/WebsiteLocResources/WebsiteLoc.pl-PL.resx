@@ -147,8 +147,8 @@
   <data name="Promises" xml:space="preserve">
     <value>Obietnice</value>
   </data>
-  <data name="BillProject" xml:space="preserve">
-    <value>Projekt ustawy</value>
+  <data name="BillProjects" xml:space="preserve">
+    <value>Projekty ustaw</value>
   </data>
   <data name="Compass" xml:space="preserve">
     <value>Kompas wyborczy</value>

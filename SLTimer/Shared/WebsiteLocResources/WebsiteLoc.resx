@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BillProject" xml:space="preserve">
-    <value>Bill project</value>
+  <data name="BillProjects" xml:space="preserve">
+    <value>Bill projects</value>
   </data>
   <data name="Compass" xml:space="preserve">
     <value>Election compass</value>

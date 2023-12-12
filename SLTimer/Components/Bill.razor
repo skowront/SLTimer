@@ -1,7 +1,53 @@
 ﻿<RadzenCard Style="display:block; padding:10px; margin-bottom:10px">
-    <RadzenText TextStyle="TextStyle.H4" Style="margin:0%;">@(WebsiteLoc.BillProject)</RadzenText>
+    <RadzenText TextStyle="TextStyle.H4" Style="margin:0%;">@(WebsiteLoc.BillProjects)</RadzenText>
 </RadzenCard>
-
+<div class="d-block">
+    <RadzenRow Gap="1rem" Style="margin-top:10px">
+        <RadzenColumn>
+            <RadzenCard Class="rz-border-radius-3" Style="min-width:250px;">
+                <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Ruch Autonomii Śląska") Class="rz-mr-1" IsPill="true" />
+                <RadzenRow Gap="1rem" Style="margin-top:3px;">
+                    <RadzenColumn>
+                        <RadzenImage Path="/images/regios/gorzelik.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
+                        <RadzenText>Jerzy Gorzelik</RadzenText>
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow Gap="1rem" Style="display:block!important">
+                    <RadzenText TextStyle="TextStyle.Overline">Obywatelski Projekt Ustawy</RadzenText>
+                </RadzenRow>                
+                <RadzenRow Gap="1rem" Style="display:block!important">
+                    <RadzenLink Path="https://www.portalsamorzadowy.pl/komunikacja-spoleczna/zmiana-ustawy-o-mniejszosciach-narodowych-i-etnicznych-czy-slaski-bedzie-jezykiem-regionalnym-sejm-zdecyduje,76645.html">Czy śląski będzie językiem regionalnym? Sejm zdecyduje</RadzenLink>
+                </RadzenRow>
+                <RadzenRow Style="display:block!important; justify-content:center">
+                    <object data="https://orka.sejm.gov.pl/Druki8ka.nsf/0/C0AA489D9FB212F8C1257F0200335BB1/%24File/27.pdf" style="width:1000px; height:1000px">
+                    </object>
+                </RadzenRow>
+            </RadzenCard>
+        </RadzenColumn>
+        <RadzenColumn>
+            <RadzenCard Class="rz-border-radius-3" Style="min-width:250px">
+                <RadzenBadge BadgeStyle="BadgeStyle.Light" Text=@("Lewica/Koalicja Obywatelska") Class="rz-mr-1" IsPill="true" />
+                <RadzenRow Gap="1rem" Style="margin-top:3px;">
+                    <RadzenColumn>
+                        <RadzenImage Path="/images/regios/kopiec.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
+                        <RadzenText>Maciej Kopiec</RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn>
+                        <RadzenImage Path="/images/regios/rosa.jpg" Class="rz-border-radius-10" Style="width: 80px; height: 80px;" />
+                        <RadzenText>Monika Rosa</RadzenText>
+                    </RadzenColumn>
+                </RadzenRow>
+                <RadzenRow Gap="1rem" Style="display:block!important">
+                    <RadzenLink Path="https://www.nowiny.pl/wiadomosci/222578-lewica-chce-uznania-slazakow-za-mniejszosc-etniczna-w-uzasadnieniu-ustawy-jest-mowa-dzieciatku-i-moczce.html">Lewica chce uznania Ślązaków za mniejszość etniczną.</RadzenLink>
+                </RadzenRow>
+                <RadzenRow Style="display:block!important; justify-content:center">
+                    <object data="https://orka.sejm.gov.pl/Druki9ka.nsf/Projekty/9-020-1330-2023/$file/9-020-1330-2023.pdf" style="width:1000px; height:1000px">
+                    </object>
+                </RadzenRow>
+            </RadzenCard>
+        </RadzenColumn>
+    </RadzenRow>
+</div>
 @code {
 
 }
