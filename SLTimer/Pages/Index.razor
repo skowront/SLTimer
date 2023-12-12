@@ -35,6 +35,7 @@ else
             <RadzenButton Click="() => SetTab(0)">@(WebsiteLoc.Promises)</RadzenButton>
             <RadzenButton Click="() => SetTab(1)">@(WebsiteLoc.Compass)</RadzenButton>
             <RadzenButton Click="() => SetTab(2)">@(WebsiteLoc.BillProjects)</RadzenButton>
+            <RadzenButton Click="() => SetTab(3)">@(WebsiteLoc.OpenLetter)</RadzenButton>
         </RadzenRow>
         @if(tab==0)
         {
@@ -47,13 +48,17 @@ else
         else if(tab==2)
         {
             <Bill></Bill>
+        }        
+        else if(tab==3)
+        {
+            <Letter></Letter>
         }
     </div>
 </div>
 
 @code {
-    private DateTime start = new DateTime(2023, 12, 13, 12, 0, 0);
-    private DateTime end = new DateTime(2023, 12, 13, 12, 0, 0) + TimeSpan.FromDays(100);
+    private DateTime start = new DateTime(2023, 12, 13, 9, 0, 0);
+    private DateTime end = new DateTime(2023, 12, 13, 9, 0, 0) + TimeSpan.FromDays(100);
     private TimeSpan timeLeft;
     private System.Threading.Timer? timer;
     TabPosition tabPosition = TabPosition.Top;
