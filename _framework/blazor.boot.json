@@ -1,7 +1,7 @@
 {
   "entryAssembly": "SLTimer",
   "resources": {
-    "hash": "sha256-XIVamInQSgVvFFMroxLdCNCoCu2cH83FR1NQZ8fteig=",
+    "hash": "sha256-Ycw87seZDpXlGJSqYKBvcmazRPo7DKLuVsFg7UHLack=",
     "runtime": {
       "dotnet.7.0.14.mikshhdjmu.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -28,7 +28,7 @@
       "Microsoft.JSInterop.dll": "sha256-hm83IY140NOmiLQ/rAymiZPVh00NL/oBc13vFoHiS5I=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-GvJxInUwsjF3BeE2f8yKSiyDaZ8qapjihQJiJbgEDp4=",
       "Radzen.Blazor.dll": "sha256-rIYNQBzFu3c4IeCFb5eEQpzIdL1WqL8SVoB6pAjbp0s=",
-      "SLTimer.dll": "sha256-fyocXXye7ScHEX/G2BK+aUZDin9BgumOFKysDHeEkZ0=",
+      "SLTimer.dll": "sha256-HlTS/9XU3PwldYMcQCqmaA7qJE5Yqs8cG/Uj6Y8dOEU=",
       "System.Collections.Concurrent.dll": "sha256-Zf7i6ZteWEEt6kvMvnEKHJY8iVqerZ/OCKA1t+u4LW4=",
       "System.Collections.dll": "sha256-x7EfBLgpy7IuibRzbkrlNxh8XnSk9XKI+DeN7zAIuSI=",
       "System.Collections.Immutable.dll": "sha256-036CONwN2kIm21LmWctqMrrnhCRcTPLzpSeT2rtllHI=",
@@ -71,19 +71,19 @@
     },
     "satelliteResources": {
       "de-DE": {
-        "de-DE/SLTimer.resources.dll": "sha256-cYgEivuXAMiUxmSx8YAknk79bwHGi0o9bPvKuQDi/YY="
+        "de-DE/SLTimer.resources.dll": "sha256-MiAh9/h84Fis/Qig++Q7BlRZ8vMGmWtin/T1HFOKHqA="
       },
       "en-CA": {
-        "en-CA/SLTimer.resources.dll": "sha256-djRAB4HnQUo4+7gmnVDKiBj+1W86cqMUtgChPcjFZJo="
+        "en-CA/SLTimer.resources.dll": "sha256-7ADIcAP4UB9AgnfW1kSkeUGqAq3qjFoBXwHPaoIYrFA="
       },
       "en-GB": {
-        "en-GB/SLTimer.resources.dll": "sha256-EnGAIg0/HJ2y/0OC6A8xEZcGjkZLgusL2LCx/6tL0b4="
+        "en-GB/SLTimer.resources.dll": "sha256-yTCTLUIVoEDhGqjsdNqIq2Ddkg2W4GDd4ECeOU0FhIM="
       },
       "en-SI": {
-        "en-SI/SLTimer.resources.dll": "sha256-uQfxZrHGtJqkRHtRZh36bu8vegss/3c/likQdF28+74="
+        "en-SI/SLTimer.resources.dll": "sha256-SDzPnE3CO/xS4PMnM9t/4mDrUQNfadJnWeiGb8VEiMI="
       },
       "pl-PL": {
-        "pl-PL/SLTimer.resources.dll": "sha256-cQSXemiU5Y261cdpmH7S91zpEWAVaxPBc08ytuboP8g="
+        "pl-PL/SLTimer.resources.dll": "sha256-hJesuLFyeXFi3cCfIyOdk+9kNDnwCc2WZQ9p7tjoF4E="
       }
     },
     "runtimeAssets": {

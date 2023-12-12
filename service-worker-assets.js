@@ -133,6 +133,14 @@
       "url": "images\/regios\/budka.jpg"
     },
     {
+      "hash": "sha256-nkOuwoi1d4dfCn6v8z2Va4MXMpANhkqC\/M8WjS5MF54=",
+      "url": "images\/regios\/gomola.jpg"
+    },
+    {
+      "hash": "sha256-oeP2a\/MiASAsdAkDve8Xg\/e1j0AJXnbQtntNUw4b+HY=",
+      "url": "images\/regios\/gorzelik.jpg"
+    },
+    {
       "hash": "sha256-ntnt4DyvIGcu3UlLnBNirvP49hVYtJXYAo1ge8f6A1E=",
       "url": "images\/regios\/holownia.jpg"
     },
@@ -155,6 +163,10 @@
     {
       "hash": "sha256-h\/kCudJp1ZrESOHYSYKEy2cUQ\/7vIAsnrRDvdo7BFRQ=",
       "url": "images\/regios\/REGIOS-logo.png"
+    },
+    {
+      "hash": "sha256-bFsDAujtm8ddFNb0L1HFelPJ84T8kjzwFkL6cmsDTv0=",
+      "url": "images\/regios\/rosa.jpg"
     },
     {
       "hash": "sha256-\/k8z0Mr7ZhAPNK+rK9gzNYsEP4Z9HShmwfygnF6Xsx0=",
@@ -193,7 +205,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-E7NQqEmZliDzplKT0c449qREquJg6RKnH0brQdhnR1M=",
+      "hash": "sha256-HkwqgovvK2os2WqARdqodthCSDeXcI9FvdhB7KXSB\/Q=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -273,7 +285,7 @@
       "url": "_framework\/Radzen.Blazor.dll"
     },
     {
-      "hash": "sha256-fyocXXye7ScHEX\/G2BK+aUZDin9BgumOFKysDHeEkZ0=",
+      "hash": "sha256-HlTS\/9XU3PwldYMcQCqmaA7qJE5Yqs8cG\/Uj6Y8dOEU=",
       "url": "_framework\/SLTimer.dll"
     },
     {
@@ -433,23 +445,23 @@
       "url": "_framework\/System.Xml.XDocument.dll"
     },
     {
-      "hash": "sha256-cYgEivuXAMiUxmSx8YAknk79bwHGi0o9bPvKuQDi\/YY=",
+      "hash": "sha256-MiAh9\/h84Fis\/Qig++Q7BlRZ8vMGmWtin\/T1HFOKHqA=",
       "url": "_framework\/de-DE\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-djRAB4HnQUo4+7gmnVDKiBj+1W86cqMUtgChPcjFZJo=",
+      "hash": "sha256-7ADIcAP4UB9AgnfW1kSkeUGqAq3qjFoBXwHPaoIYrFA=",
       "url": "_framework\/en-CA\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-EnGAIg0\/HJ2y\/0OC6A8xEZcGjkZLgusL2LCx\/6tL0b4=",
+      "hash": "sha256-yTCTLUIVoEDhGqjsdNqIq2Ddkg2W4GDd4ECeOU0FhIM=",
       "url": "_framework\/en-GB\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-uQfxZrHGtJqkRHtRZh36bu8vegss\/3c\/likQdF28+74=",
+      "hash": "sha256-SDzPnE3CO\/xS4PMnM9t\/4mDrUQNfadJnWeiGb8VEiMI=",
       "url": "_framework\/en-SI\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-cQSXemiU5Y261cdpmH7S91zpEWAVaxPBc08ytuboP8g=",
+      "hash": "sha256-hJesuLFyeXFi3cCfIyOdk+9kNDnwCc2WZQ9p7tjoF4E=",
       "url": "_framework\/pl-PL\/SLTimer.resources.dll"
     },
     {
@@ -589,5 +601,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "AaunMIEF"
+  "version": "0wgkbbbK"
 };
