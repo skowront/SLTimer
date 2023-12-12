@@ -159,4 +159,10 @@
   <data name="ReadMore" xml:space="preserve">
     <value>Read more</value>
   </data>
+  <data name="OpenLetter" xml:space="preserve">
+    <value>Open letter</value>
+  </data>
+  <data name="OpenLetterDescription" xml:space="preserve">
+    <value>During the election campaign, the Silesian people had the opportunity to listen to promises made by various politicians. However, the time has come not only to listen but also to be heard. Therefore, we address Prime Minister Donald Tusk with an open letter requesting recognition of the Silesian minority and the Silesian language.</value>
+  </data>
 </root>

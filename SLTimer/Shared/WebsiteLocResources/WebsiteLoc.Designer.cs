@@ -142,6 +142,24 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open letter.
+        /// </summary>
+        public static string OpenLetter {
+            get {
+                return ResourceManager.GetString("OpenLetter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to During the election campaign, the Silesian people had the opportunity to listen to promises made by various politicians. However, the time has come not only to listen but also to be heard. Therefore, we address Prime Minister Donald Tusk with an open letter requesting recognition of the Silesian minority and the Silesian language..
+        /// </summary>
+        public static string OpenLetterDescription {
+            get {
+                return ResourceManager.GetString("OpenLetterDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Promises.
         /// </summary>
         public static string Promises {

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WebsiteTitle" xml:space="preserve">
-    <value>Schlesischer Schalter</value>
+    <value>Zeit für Schlesier</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Während des Wahlkampfs haben viele Politiker, besonders diejenigen, die aus Schlesien antreten, Forderungen im Zusammenhang mit der nicht anerkannten schlesischen Minderheit und ihrer Sprache angesprochen. Im Folgenden sind politische Erklärungen der Führer der sogenannten "demokratischen Opposition" gesammelt, die eine Koalitionsvereinbarung unterzeichnet haben und die Fähigkeit zur Bildung einer Mehrheitsregierung erklären. Eine dieser Forderungen, die "Radzionków-Erklärung", sieht die Anerkennung der schlesischen Sprache als regionale Sprache innerhalb der ersten 100 Tage der Regierung der Bürgerkoalition vor. Deshalb haben wir auf dieser Seite eine Uhr platziert, um die Schlesier, schlesischen Politiker und die neue Regierung daran zu erinnern, die gemachten Versprechen zu halten.</value>
+    <value>Während des Wahlkampfs haben viele Politiker, besonders diejenigen, die aus Schlesien, Forderungen im Zusammenhang mit der nicht anerkannten schlesischen Minderheit und ihrer Sprache angesprochen. Im Folgenden sind politische Erklärungen der Führer der sogenannten "demokratischen Opposition" gesammelt, die eine Koalitionsvereinbarung unterzeichnet haben und die Fähigkeit zur Bildung einer Mehrheitsregierung erklären. Eine dieser Forderungen, die "Radzionków-Erklärung", sieht die Anerkennung der schlesischen Sprache als regionale Sprache innerhalb der ersten 100 Tage der Regierung der Bürgerkoalition vor. Deshalb haben wir auf dieser Seite eine Uhr platziert, um die Schlesier, schlesischen Politiker und die neue Regierung daran zu erinnern, die gemachten Versprechen zu halten. Der Verein REGIOS hat einen Wahlkompass vorbereitet, in dem wir Informationen über die Ansätze verschiedener Wahlkomitees gesammelt haben, die an den Parlamentswahlen 2023 teilnehmen, hinsichtlich der Forderung nach der Schlesischen Sprache und der Anerkennung der Schlesier als ethnische Minderheit.</value>
   </data>
   <data name="DeadlineBrokenBy" xml:space="preserve">
     <value>Fristüberschreitung um</value>
@@ -148,6 +148,21 @@
     <value>Tage</value>
   </data>
   <data name="CompassDescription" xml:space="preserve">
-    <value>Der Verein REGIOS hat einen Wahlkompass vorbereitet, in dem wir Informationen über die Ansätze verschiedener Wahlkomitees gesammelt haben, die an den Parlamentswahlen 2023 teilnehmen, hinsichtlich der Forderung nach der Schlesischen Sprache und der Anerkennung der Schlesier als ethnische Minderheit. Wir ermutigen Sie, sich mit seinem Inhalt vertraut zu machen.</value>
+    <value>Der Verein REGIOS hat einen Wahlkompass vorbereitet, in dem wir Informationen über die Ansätze verschiedener Wahlkomitees gesammelt haben, die an den Parlamentswahlen 2023 teilnehmen, hinsichtlich der Forderung nach der Schlesischen Sprache und der Anerkennung der Schlesier als ethnische Minderheit.</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Mehr lesen</value>
+  </data>
+  <data name="BillProjects" xml:space="preserve">
+    <value>Rechnung</value>
+  </data>
+  <data name="Compass" xml:space="preserve">
+    <value>Wahlkompass</value>
+  </data>
+  <data name="OpenLetter" xml:space="preserve">
+    <value>Brief an den Premierminister</value>
+  </data>
+  <data name="OpenLetterDescription" xml:space="preserve">
+    <value>Während des Wahlkampfes hatten die Schlesier die Gelegenheit, den Versprechungen verschiedener Politiker zuzuhören. Doch jetzt ist die Zeit gekommen, nicht nur zuzuhören, sondern auch gehört zu werden. Daher wenden wir uns mit einem offenen Brief an Premierminister Donald Tusk und bitten um Anerkennung der schlesischen Minderheit und der schlesischen Sprache.</value>
   </data>
 </root>
