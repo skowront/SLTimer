@@ -3,7 +3,10 @@
 </RadzenCard>
 <RadzenCard Style="margin-bottom:10px">
     <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:0%;">@(WebsiteLoc.OpenLetterDescription)</RadzenText>
-    <RadzenLink Path="https://regios.org.pl/index.php/2023/12/13/czas-na-slazakow-list-otwarty-do-premiera/" Text="@(WebsiteLoc.ReadMore)"></RadzenLink>
+    <RadzenLink Path="https://regios.org.pl/index.php/2023/12/13/czas-na-slazakow-list-otwarty-do-premiera/" Text="@(WebsiteLoc.ReadMore)" Style="display:block"></RadzenLink>
+    <form action="https://regios.org.pl/index.php/2023/12/13/czas-na-slazakow-list-otwarty-do-premiera/">
+        <input type="submit" value="@(WebsiteLoc.Sign)" class="btn btn-primary" style="margin-bottom:5px; margni-top:5px" />
+    </form>
     <object data="https://regios.org.pl/wp-content/uploads/2023/12/List-otwarty-do-Premiera.pdf" style="width:1000px; height:1000px">
         <p>
             <RadzenLink Path="https://regios.org.pl/wp-content/uploads/2023/12/List-otwarty-do-Premiera.pdf" Text="@((WebsiteLoc.Content)+"->")"></RadzenLink>
@@ -14,3 +17,4 @@
 @code {
 
 }
+

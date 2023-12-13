@@ -165,4 +165,7 @@
   <data name="Content" xml:space="preserve">
     <value>Treść dostympna tukey</value>
   </data>
+  <data name="Sign" xml:space="preserve">
+    <value>Podpisz</value>
+  </data>
 </root>
