@@ -196,6 +196,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sign.
+        /// </summary>
+        public static string Sign {
+            get {
+                return ResourceManager.GetString("Sign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Time left.
         /// </summary>
         public static string TimeLeft {

@@ -168,4 +168,7 @@
   <data name="Content" xml:space="preserve">
     <value>Treść dostępna tutaj</value>
   </data>
+  <data name="Sign" xml:space="preserve">
+    <value>Podpisz</value>
+  </data>
 </root>
