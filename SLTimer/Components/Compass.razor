@@ -4,11 +4,15 @@
 <RadzenCard Style="margin-bottom:10px">
     <RadzenText TextStyle="TextStyle.Body1" Style="margin-top:0%;">@(WebsiteLoc.CompassDescription)</RadzenText>
     <RadzenLink Path="https://regios.org.pl/index.php/kompas-wyborczy-regios-2023/" Text="@(WebsiteLoc.ReadMore)"></RadzenLink>
+    <object data="https://regios.org.pl/wp-content/uploads/2023/10/Kompas-Wyborczy-REGIOS-Wybory-Parlamentarne-2023.pdf" style="width:1000px; height:1000px">
+        <p>
+            <RadzenLink Path="https://regios.org.pl/wp-content/uploads/2023/10/Kompas-Wyborczy-REGIOS-Wybory-Parlamentarne-2023.pdf" Text="@((WebsiteLoc.Content)+"->")"></RadzenLink>
+        </p>
+    </object>
 </RadzenCard>
 
 
-<object data="https://regios.org.pl/wp-content/uploads/2023/10/Kompas-Wyborczy-REGIOS-Wybory-Parlamentarne-2023.pdf" style="width:1000px; height:1000px">
-</object>
+
 
 @code {
 

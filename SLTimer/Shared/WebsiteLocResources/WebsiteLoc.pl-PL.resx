@@ -165,4 +165,7 @@
   <data name="OpenLetterDescription" xml:space="preserve">
     <value>Podczas kampanii wyborczej Ślązaczki i Ślązacy mieli okazję słuchać obietnic składanych przez różnych polityków. Przyszedł jednak czas, by nie tylko słuchać, ale też być wysłuchanym. Dlatego zwracamy się do Premiera Donalda Tuska z listem otwartym wnoszącym o uznanie mniejszości śląskiej i języka śląskiego.</value>
   </data>
+  <data name="Content" xml:space="preserve">
+    <value>Treść dostępna tutaj</value>
+  </data>
 </root>
