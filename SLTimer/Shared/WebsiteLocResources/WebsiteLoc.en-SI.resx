@@ -123,4 +123,43 @@
   <data name="Description" xml:space="preserve">
     <value>We czasie kampanije welōnkowyj moc politykrōw, ôsobliwie tych kerzi sztartowali ze Ślōnska, ôdnosiyło sie do postulatōw swiōnzanych ze niyuznŏwanōm myńszojściōm Ślōnskōm aji jeji gŏdkōm. Pōniżyj ôstały zebrane polityczne deklaracyje liderōw tmj. "dymokratycznyj ôpozycyje" kerzi podpisali umŏwã koalicyjnõ a deklarujōm zdolnojść do stworzyniŏ wiynkszojściowego regyrōnku. Jedyn z tych postulatōw "Deklaracyjŏ Radziōnkowskŏ" zakłŏdŏ uznaniy ślōnskij gŏdki za gŏdkã regijōnalnõ we czasie piyrszych 100 dni regyrowaniŏ Koalicyje Ôbywatelskij, beztōż tyż na tyj zajcie wraziyli'chmy zygŏr, kery mŏ spōminać Ślōnzŏkōm, ślōnskim politykrōm a nowymu regyrōnkowi ô dotrzimaniu słożōnych ôbiecek.</value>
   </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Ôstały czas</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>sekōnd</value>
+  </data>
+  <data name="Promises" xml:space="preserve">
+    <value>ôbiycki</value>
+  </data>
+  <data name="OpenLetterDescription" xml:space="preserve">
+    <value>We czasie kampanije welōnkowyj Ślōnzŏczki a Ślōnzŏki mieli ôkazyjõ suchać ôbiecek skłodanych ôd roztōmajtych politykrōw. Prziszoł nale czas, by niy yno suchać, nale tyż być wysuchanym. Beztōż zwrŏcōmy sie do Prymiera Tuska z brifym ôtwartym kery gŏdŏ ô uznaniu myńszojście ślōnskij a ślōnskij gŏdki.</value>
+  </data>
+  <data name="OpenLetter" xml:space="preserve">
+    <value>Brif ôtwarty</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Gŏdka</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Godziny</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Dni</value>
+  </data>
+  <data name="CompassDescription" xml:space="preserve">
+    <value>Stŏwarziszynie REGIOS narychtowało Kōmpas Welōnkowy, w kerym sebrali'chmy informacyje ô podejściu roztōmajtych kōmitetōw welōnkowych kere sztartowały we welōnku parlamyntarnego 2023 wobec postulatu uznaniŏ ślōnskigo jynzyka aji Ślōnzŏkōw za etnicznõ myńszojść. Zachyncōmy do zapoznaniŏ sie ze jego treściōm.</value>
+  </data>
+  <data name="BillProjects" xml:space="preserve">
+    <value>Projekty zakōnōw</value>
+  </data>
+  <data name="Compass" xml:space="preserve">
+    <value>Kōmpas welōnkowy</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Czytej wiyncyj</value>
+  </data>
 </root>
