@@ -165,4 +165,7 @@
   <data name="OpenLetterDescription" xml:space="preserve">
     <value>Während des Wahlkampfes hatten die Schlesier die Gelegenheit, den Versprechungen verschiedener Politiker zuzuhören. Doch jetzt ist die Zeit gekommen, nicht nur zuzuhören, sondern auch gehört zu werden. Deshalb haben wir einen offenen Brief an den Premierminister Donald Tusk geschrieben und appelliert an Anerkennung der schlesischen Minderheit und der schlesischen Sprache.</value>
   </data>
+  <data name="Content" xml:space="preserve">
+    <value>Inhalte hier verfügbar</value>
+  </data>
 </root>

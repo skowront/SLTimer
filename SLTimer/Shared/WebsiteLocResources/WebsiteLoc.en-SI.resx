@@ -162,4 +162,7 @@
   <data name="ReadMore" xml:space="preserve">
     <value>Czytej wiyncyj</value>
   </data>
+  <data name="Content" xml:space="preserve">
+    <value>Treść dostympna tukey</value>
+  </data>
 </root>

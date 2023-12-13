@@ -88,6 +88,15 @@ namespace SLTimer.Shared.WebsiteLocResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Content available here.
+        /// </summary>
+        public static string Content {
+            get {
+                return ResourceManager.GetString("Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to days.
         /// </summary>
         public static string Days {
