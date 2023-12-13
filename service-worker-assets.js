@@ -205,7 +205,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-5sC4Xfhl9RDASTp84dd1OGYKBomYScBq1WOvujos0SU=",
+      "hash": "sha256-yvoaFf9lJuJs9A5O7daQ4wClObNg4cWPhmxawmHhpiM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -285,7 +285,7 @@
       "url": "_framework\/Radzen.Blazor.dll"
     },
     {
-      "hash": "sha256-sicDdGMfmgJhXgAOsc+XXA0o8cx3fce5YFCaphyehuY=",
+      "hash": "sha256-8YMe\/1SZy0U3xykKqdw88bcn3v2xc0HwB40S9qO6l3U=",
       "url": "_framework\/SLTimer.dll"
     },
     {
@@ -445,23 +445,23 @@
       "url": "_framework\/System.Xml.XDocument.dll"
     },
     {
-      "hash": "sha256-laISoZyTq2jtM4gX9LfEcrUUWdOK5yOYdrk1TzB8iug=",
+      "hash": "sha256-jX5e9ZGAIdWJVQ831E9FMxg\/f5FkxbU+U9lMfiF+X6w=",
       "url": "_framework\/de-DE\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-7qxwB1XZTf9nFQqWXzrveAAQ3RhICANrLzKtmRHheaM=",
+      "hash": "sha256-qKbkmHpqgsExA63VFI63EbL2WCYhjELSxXAtq5Pnt+Y=",
       "url": "_framework\/en-CA\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-BOgD5DCWB2mNYpTsGRxme96\/BqZ9S2BXFqOzWZmc3k4=",
+      "hash": "sha256-608\/5HAr7aMWaEi1tmfi8P1+pL2atyu4U2cSPxYE2Nk=",
       "url": "_framework\/en-GB\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-pqpYS6+7FgML7EPbQYznP47fqtlOnJavQ9lNALgNM\/4=",
+      "hash": "sha256-N7tVFIJ9aP8\/GsHMLhEpMPDsdHIggWjonFHn6GeUEwM=",
       "url": "_framework\/en-SI\/SLTimer.resources.dll"
     },
     {
-      "hash": "sha256-dr3o6PwH8XAlPrhVCAyX9uQ5YG1f2nqU6o1VP2+meLk=",
+      "hash": "sha256-LXSwZ2EZ\/yGiw71iXAnsxNA1lv8KJ+0pIEZ2IZDT3fM=",
       "url": "_framework\/pl-PL\/SLTimer.resources.dll"
     },
     {
@@ -601,5 +601,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "9kYcc0PR"
+  "version": "2rJ4OD6E"
 };
